@@ -1,4 +1,5 @@
-//Implementa un programa que lea un número positivo por teclado e informe de si el número es par o impar.
+//Implementa un programa que imprima por pantalla “Hola, ¿Qué tal estáis?”.
+
 
 #include <stdio.h>
 
