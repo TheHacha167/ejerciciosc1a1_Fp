@@ -1,4 +1,5 @@
 /*
+Implementar un programa que llame a una función que muestre la tabla de multiplicar de un número entero.
 
 */
 #include <stdio.h>
