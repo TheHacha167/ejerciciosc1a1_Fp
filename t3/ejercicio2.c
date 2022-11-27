@@ -1,5 +1,5 @@
 /*
-Implementa un programa que lea dos números enteros y escribir el mayor o un mensaje si son iguales.
+Implementa un programa que sume dos valores enteros.
 
 */
 #include <stdio.h>
