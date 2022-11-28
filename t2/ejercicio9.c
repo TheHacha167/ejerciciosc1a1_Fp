@@ -10,7 +10,7 @@ int main()
    scanf("%i", &n1);
    if (n1 == 0 || n1 == 1 || n1 == 4)
    {
-      return 0;
+      primo  = false;
    }
    for (int x = 2; x < n1 / 2; ++x)
    {
