@@ -1,4 +1,5 @@
 /*
+Implementa un programa en lenguaje C que utilice las funciones strcpy, strcat.
 
 */
 #include <stdio.h>

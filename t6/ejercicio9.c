@@ -1,4 +1,5 @@
 /*
+Implementa un programa en lenguaje C que muestre el uso de la función strlen().
 
 */
 #include <stdio.h>

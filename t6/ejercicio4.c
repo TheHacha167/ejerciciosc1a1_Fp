@@ -1,4 +1,5 @@
 /*
+Implementa un programa que copie un array en otro.
 
 */
 #include <stdio.h>

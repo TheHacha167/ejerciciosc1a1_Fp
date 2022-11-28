@@ -1,4 +1,5 @@
 /*
+Implementa un programa que introduzca los valores de un array mediante un bucle solicitando los datos por teclado.
 
 */
 #include <stdio.h>

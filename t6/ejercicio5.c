@@ -1,4 +1,5 @@
 /*
+Implementa un programa copie un arrray en otro utilizando una función.
 
 */
 #include <stdio.h>
