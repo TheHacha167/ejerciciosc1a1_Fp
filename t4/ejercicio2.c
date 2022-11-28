@@ -1,5 +1,5 @@
 /*
-Implementa un programa con una función resta que reste dos números que se ingresan por teclado.
+    Implementa un programa que sume dos valores enteros.
 
 */
 #include <stdio.h>

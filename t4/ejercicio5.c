@@ -1,5 +1,5 @@
 /*
-Implementar un programa que lea dos números enteros y se los pase a una función que escriba por pantalla cual es el mayor o un mensaje si son iguales.
+    Implementa un programa que muestre la tabla de multiplicar de un número entero.
 
 */
 #include <stdio.h>

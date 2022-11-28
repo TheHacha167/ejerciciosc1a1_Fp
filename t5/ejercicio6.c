@@ -1,4 +1,5 @@
 /*
+Implementar un programa en C que lea dos números enteros cualesquiera y llame a una función que muestre los números comprendidos entre ambos, sin incluirlos a ellos mismos.
 
 */
 #include <stdio.h>

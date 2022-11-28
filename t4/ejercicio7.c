@@ -1,5 +1,5 @@
 /*
-Implementar un programa que llame a una función que muestre la tabla de multiplicar de un número entero.
+    Implementa un programa que lea un número N y muestre la suma de los N primeros números.
 
 */
 #include <stdio.h>

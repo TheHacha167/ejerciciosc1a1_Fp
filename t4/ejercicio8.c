@@ -1,5 +1,5 @@
 /*
-Implementar un programa llame a una función que genere números enteros de 2 en 2 comenzando por el 2 hasta el valor máximo menor que 30 y sume los divisibles por 2.
+    Implementa un programa que muestre por pantalla todos los números comprendidos entre 1 y 100 que son múltiplos de 7 o de 13.
 
 */
 #include <stdio.h>

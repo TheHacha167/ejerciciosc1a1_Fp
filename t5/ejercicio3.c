@@ -1,4 +1,5 @@
 /*
+Implementa un programa con una función menú que elija sumar o multiplicar dos números que se ingresan por teclado.
 
 */
 #include <stdio.h>

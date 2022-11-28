@@ -1,4 +1,5 @@
 /*
+Implementar un programa que lea un número N y llame a una función que muestre la suma de los N primeros números.
 
 */
 #include <stdio.h>

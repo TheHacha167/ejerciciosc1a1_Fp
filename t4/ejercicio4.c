@@ -1,5 +1,5 @@
 /*
-Similar al ejercicio 1, desarrollando más funciones. Implementa un programa con una función menú que elija sumar o multiplicar, con una fusión que solicite dos números que se ingresan por teclado y una función multiplicar y otra sumar para operar con los dos números.
+    Implementa un programa en C que lea dos números enteros cualesquiera y muestre los números comprendidos entre ambos, sin incluirlos a ellos mismos.
 
 */
 #include <stdio.h>

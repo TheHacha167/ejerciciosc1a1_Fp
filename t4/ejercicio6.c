@@ -1,5 +1,5 @@
 /*
-Implementar un programa en C que lea dos números enteros cualesquiera y llame a una función que muestre los números comprendidos entre ambos, sin incluirlos a ellos mismos.
+    Implementa un programa que genere números enteros de 2 en 2 comenzando por el 2 hasta el valor máximo menor que 30 y sume los divisibles por 2.
 
 */
 #include <stdio.h>

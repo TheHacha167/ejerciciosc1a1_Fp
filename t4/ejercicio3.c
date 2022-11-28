@@ -1,5 +1,5 @@
 /*
-Implementa un programa con una función menú que elija sumar o multiplicar dos números que se ingresan por teclado.
+    Implementa un programa que lea dos números enteros y escribir el mayor o un mensaje si son iguales.
 
 */
 #include <stdio.h>

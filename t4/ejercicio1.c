@@ -1,5 +1,5 @@
 /*
-Implementa un programa con una función que muestre un saludo por pantalla.
+    Implementa un programa que imprima por pantalla “Hola, ¿Qué tal estáis?”.
 
 */
 #include <stdio.h>
