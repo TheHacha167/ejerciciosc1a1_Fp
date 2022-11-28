@@ -3,9 +3,10 @@
 
 */
 #include <stdio.h>
+int n1 = 0, n2 = 0;
 
-int main (int argc,char **argv)
+int main()
 {
-   printf("Hola mundo\n");
-   return 0;
+    printf("Da  primer numero a comparar\n");
+    scanf("%i", &n1);
 }

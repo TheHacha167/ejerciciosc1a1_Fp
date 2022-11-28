@@ -3,9 +3,9 @@
 
 */
 #include <stdio.h>
-
-int main (int argc,char **argv)
+int n1 = 100, n2 = 20;
+int main()
 {
-   printf("Hola mundo\n");
-   return 0;
+    printf("%i  %i\n", n1 + n2);
+    return 0;
 }

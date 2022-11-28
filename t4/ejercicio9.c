@@ -9,26 +9,26 @@ int n1 = 0;
 int main()
 {
 
-   printf("Introduce el numero a comprobar \n");
-   scanf("%i", &n1);
-   if (n1 == 0 || n1 == 1 || n1 == 4)
-   {
-      primo  = false;
-   }
-   for (int x = 2; x < n1 / 2; ++x)
-   {
-      if (n1 % x == 0)
-      {
-         primo = false;
-      }
-   }
-   if (primo == 1)
-   {
-      printf("Es primo");
-   }
-   else
-   {
-      printf("No es primo");
-   }
-   return 0;
+    printf("Introduce el numero a comprobar \n");
+    scanf("%i", &n1);
+    if (n1 == 0 || n1 == 1 || n1 == 4)
+    {
+        primo = false;
+    }
+    for (int x = 2; x < n1 / 2; ++x)
+    {
+        if (n1 % x == 0)
+        {
+            primo = false;
+        }
+    }
+    if (primo == 1)
+    {
+        printf("Es primo");
+    }
+    else
+    {
+        printf("No es primo");
+    }
+    return 0;
 }

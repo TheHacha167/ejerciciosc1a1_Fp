@@ -4,8 +4,8 @@
 */
 #include <stdio.h>
 
-int main (int argc,char **argv)
+int main()
 {
-   printf("Hola mundo\n");
-   return 0;
+    printf("Hola, ¿Qué tal estáis?\n");
+    return 0;
 }

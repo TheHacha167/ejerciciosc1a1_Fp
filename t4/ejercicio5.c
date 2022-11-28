@@ -3,9 +3,17 @@
 
 */
 #include <stdio.h>
+int n1 = 0;
 
-int main (int argc,char **argv)
+int main()
 {
-   printf("Hola mundo\n");
-   return 0;
+    printf("Da  primer numero a obtener la tabla\n");
+    scanf("%i", &n1);
+
+    for (int i = 0; i < 11; i++)
+    {
+        printf("%i\n", n1 * i);
+    }
+
+    return 0;
 }

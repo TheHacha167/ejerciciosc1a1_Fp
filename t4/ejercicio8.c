@@ -4,8 +4,24 @@
 */
 #include <stdio.h>
 
-int main (int argc,char **argv)
+int main()
 {
-   printf("Hola mundo\n");
-   return 0;
+    for (size_t i = 0; i < 100; i++)
+    {
+
+        if (i % 7 == 0)
+        {
+            printf("Multiplo de 7     %i\n", i);
+        }
+        else
+        {
+
+            if (i % 13 == 0)
+            {
+                printf("Multiplo de 13    %i\n", i);
+            }
+        }
+    }
+
+    return 0;
 }
