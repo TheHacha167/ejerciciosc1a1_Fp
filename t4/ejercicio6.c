@@ -18,6 +18,6 @@ int main()
         }
     }
     printf("......................\n");
-    printf("%i La suma de todos los numeros anteriores divisibles por dos es : \n", n2);
+    printf(" La suma de todos los numeros anteriores divisibles por dos es : %i \n", n2);
     return 0;
 }
