@@ -10,8 +10,9 @@ int main()
 {
     for (int i = 0; i < 14; i++)
     {
-        n1 = n1 + 2;
+        
         printf("%i\n", n1);
+        n1 = n1 + 2;
         if (n1 % 2 == 0)
         {
             n2 = n2 + n1;
