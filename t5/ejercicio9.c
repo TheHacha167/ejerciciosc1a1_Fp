@@ -3,13 +3,13 @@ Implementar un programa que lea un número N y llame a una función que muestre 
 
 */
 #include <stdio.h>
-int n1 = 0, n2 = 0,n3=0;
-void sumatoria(int numero1){
+int n1 = 0, n2 = 0, n3 = 0;
+void sumatoria(int numero1)
+{
 
-numero1 = numero1 +1;
-n3=n3+n2;
-n2= numero1;
-
+    numero1 = numero1 + 1;
+    n3 = n3 + n2;
+    n2 = numero1;
 }
 int main()
 {
