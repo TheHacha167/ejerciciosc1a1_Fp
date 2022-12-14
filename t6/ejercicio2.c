@@ -12,6 +12,7 @@ uno de suma de filas y otro de suma de columnas.
 t1= filas
 t2= columnas
 */
+
 #include <stdio.h>
 
 const int t1 = 3;
@@ -20,6 +21,13 @@ int x = 0, y = 0;
 int matriz1[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 int matriz1_suma_filas[3];
 int matriz1_suma_columnas[3];
+/**
+ * @brief 
+ * 
+ * @param matriz 
+ * @param tamanio1 
+ * @param tamanio2 
+ */
 void matriz(int matriz[x][y], int tamanio1, int tamanio2)
 {
 
@@ -34,6 +42,14 @@ void matriz(int matriz[x][y], int tamanio1, int tamanio2)
       }
    }
 }
+/**
+ * @brief 
+ * 
+ * @param matriz 
+ * @param tamanio1 
+ * @param tamanio2 
+ * @param matriz2 
+ */
 void suma_matriz_columnas(int matriz[x][y], int tamanio1, int tamanio2, int matriz2[])
 {
    int n1 = 0;
@@ -56,6 +72,14 @@ void suma_matriz_columnas(int matriz[x][y], int tamanio1, int tamanio2, int matr
       n1 = 0;
    }
 }
+/**
+ * @brief 
+ * 
+ * @param matriz 
+ * @param tamanio1 
+ * @param tamanio2 
+ * @param matriz2 
+ */
 void suma_matriz_filas(int matriz[x][y], int tamanio1, int tamanio2, int matriz2[])
 {
    int n1 = 0;
@@ -78,6 +102,13 @@ void suma_matriz_filas(int matriz[x][y], int tamanio1, int tamanio2, int matriz2
       n1 = 0;
    }
 }
+/**
+ * @brief 
+ * 
+ * @param matriz 
+ * @param tamanio1 
+ * @return int 
+ */
 int salida_matriz_una_dimension(int matriz[x], int tamanio1)
 {
    x = tamanio1;
@@ -90,6 +121,14 @@ int salida_matriz_una_dimension(int matriz[x], int tamanio1)
    }
    return 0;
 }
+/**
+ * @brief 
+ * 
+ * @param matriz 
+ * @param tamanio1 
+ * @param tamanio2 
+ * @return int 
+ */
 int salida_matriz_dos_dimension(int matriz[x][y], int tamanio1, int tamanio2)
 {
    x = tamanio1;
@@ -110,7 +149,7 @@ int salida_matriz_dos_dimension(int matriz[x][y], int tamanio1, int tamanio2)
 
 int main()
 {
-   // matriz(matriz1,t1,t2);
+    matriz(matriz1,t1,t2);
    salida_matriz_dos_dimension(matriz1, 3, 3);
 
    suma_matriz_columnas(matriz1, t1, t2, matriz1_suma_columnas);
