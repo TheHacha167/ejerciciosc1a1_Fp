@@ -4,8 +4,15 @@ Usa la función fflush para limpiar el buffer de entrada.
 */
 #include <stdio.h>
 
-int main (int argc,char **argv)
-{
-   printf("Hola mundo\n");
-   return 0;
+int main() {
+    char c;
+
+    printf("Ingrese un caracter: ");
+    fflush(stdout); // Se limpia el buffer de salida
+
+    scanf("%c", &c);
+
+    printf("El caracter ingresado es: %c\n", c);
+
+    return 0;
 }
