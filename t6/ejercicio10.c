@@ -5,21 +5,28 @@ Implementa un programa en C que compare 2 cadenas y dé como resultado si son ig
 #include <stdio.h>
 #include <string.h>
 
-int main(void) {
-  // Declara dos cadenas de texto
-  char str1[] = "hola";
-  char str2[] = "hola";
+#define MAX 50
 
-  // Compara las dos cadenas usando la función strcmp()
-  int resultado = strcmp(str1, str2);
+int main() {
+    char cadena1[MAX], cadena2[MAX];
+    int resultado;
 
-  if (resultado == 0) {
-    printf("Las cadenas son iguales.\n");
-  } else if (resultado > 0) {
-    printf("La cadena 1 es mayor que la cadena 2.\n");
-  } else {
-    printf("La cadena 1 es menor que la cadena 2.\n");
-  }
+    printf("Ingrese la primera cadena: ");
+    fgets(cadena1, MAX, stdin);
 
-  return 0;
+    printf("Ingrese la segunda cadena: ");
+    fgets(cadena2, MAX, stdin);
+
+    // Se compara las dos cadenas utilizando la función strcmp
+    resultado = strcmp(cadena1, cadena2);
+
+    if(resultado == 0) {
+        printf("Las cadenas son iguales.\n");
+    } else if(resultado < 0) {
+        printf("La cadena \"%s\" es menor que la cadena \"%s\".\n", cadena1, cadena2);
+    } else {
+        printf("La cadena \"%s\" es mayor que la cadena \"%s\".\n", cadena1, cadena2);
+    }
+
+    return 0;
 }

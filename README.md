@@ -45,3 +45,39 @@ Tema 6
   Implementa un programa en lenguaje C que utilice las funciones strcpy, strcat.
   Implementa un programa en lenguaje C que muestre el uso de la función strlen().
   Implementa un programa en C que compare 2 cadenas y dé como resultado si son iguales, o mayor o menor una que la otra.
+
+Tema 7
+  Implementa un programa que defina un puntero a un entero.
+  Implementa un programa en C que muestre el uso de operaciones aritméticas con punteros.
+  Implementa un programa que muestre el uso de punteros y arrays.
+  Implementa un programa que muestre el uso de punteros a cadenas de caracteres.
+  Implementa un programa en C que asigne valores a un array usando punteros.
+  Implementa un programa en C que muestre el uso de matrices de punteros.
+  Implementa un programa en C que muestre el uso de indirecciones con punteros.
+  Implementa un programa en C defina un puntero a una estructura y se pase como argumento a una función.
+  Implementa un programa en lenguaje C que cree un puntero y se le asigne memoria con la función malloc().
+
+Tema 8
+  Escribe un programa en C que utilice la función puts para escribir cadenas en un fichero.
+  Escribe un programa en C que cree un archivo e introducir el texto que el usuario introduce por teclado.
+  Implementa un programa que lea la información de estudiantes de un fichero.
+  Implementa un programa en C que abra un fichero, entre 3 opciones y lea su información sucesivamente y la muestre por pantalla.
+  Escribe datos en un fichero carácter a carácter.
+  Implementa un programa que escriba datos formateados (fprintf) en un fichero.
+  Implementa un programa en C que copie un fichero en otro fichero.
+  Implementa un programa en C que muestre el uso de fwrite en un fichero.
+  Implementa un programa en C que muestre el uso de la función ferror() en ficheros.
+  Implementa un programa en lenguaje C que introduzca registros con información de personas en un fichero con la función fwrite y posteriormente utilice la función fseek para buscar y obtener la información de una persona determinada.
+
+Tema 9
+  Diseña una función recursiva en C que calcule el factorial de un número.
+  Escribe un programa en C que incluya una función recursiva que calcule la potencia de un número.
+  Implementa un programa que incluya una función recursiva que resuelva la raíz cuadrada.
+  Implementa un programa en C que incluya una función que calcule la suma de los componentes de un vector.
+  Escribe una función recursiva en C que calcule el máximo común divisor de dos números.
+  Implementa un programa que incluya una función recursiva que calcule la serie de Fibonacci de un número.
+  Implementa un programa en C que incluya una función recursiva que calcule la división entera.
+  Implementa un programa en C que incluya una función que realice una búsqueda dicotómica en un array.
+  Implementa un programa en C que incluya una función recursiva que solucione el problema de las torres de Hanoi.
+  Implementar un programa en C que use una función recursiva para ordenar una lista con la técnica Quicksort.
+
